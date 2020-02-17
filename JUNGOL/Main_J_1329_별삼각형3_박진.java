@@ -1,3 +1,5 @@
+// Beginner Coder - 1329 : 별삼각형3
+
 import java.util.Scanner;
  
 public class Main {
