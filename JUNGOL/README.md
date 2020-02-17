@@ -1,15 +1,14 @@
 (2020-02-14)
-
+- Main_J_1863_종교_박진 (Advanced Corder - 1863 : 종교)
 
 (2020-02-11)
 - Main_J_2752_개미_박진 (Intermediate Coder - 2752 : 개미)
 
-
 (2020-02-10)
-
+- Main_J_1828_냉장고_박진 (Intermediate Coder - 1828 : 냉장고)
 
 (2020-02-07)
-
+- Main_J_1681_해밀턴순환회로_박진 (Intermediate Coder - 1681 : 해밀턴 순환회로)
 
 (2020-02-03)
 
