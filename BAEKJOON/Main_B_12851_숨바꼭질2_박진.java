@@ -1,4 +1,4 @@
-// Gold V - 12851 : 숨바꼭질2
+// Gold V - 12851 : 숨바꼭질 2
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
