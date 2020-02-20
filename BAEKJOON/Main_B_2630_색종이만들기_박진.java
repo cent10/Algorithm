@@ -1,7 +1,5 @@
 // Silver III - 2630 : 색종이 만들기
 
-package com.ssafy.divide;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
