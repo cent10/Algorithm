@@ -1,7 +1,5 @@
 // Silver II - 1931 : 회의실배정
 
-package com.ssafy.subset;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
