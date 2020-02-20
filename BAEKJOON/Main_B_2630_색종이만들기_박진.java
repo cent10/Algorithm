@@ -43,6 +43,8 @@ public class Main_B_2630_색종이만들기_박진 {
 		
 		int numW = 0;
 		int numB = 0;
+		
+		// 색이 섞여있는지 확인
 	L:	for (int i = startRow; i < endRow; i++) {
 			for (int j = startCol; j < endCol; j++) {
 				if (numW > 0 && numB > 0) {
@@ -55,13 +57,13 @@ public class Main_B_2630_색종이만들기_박진 {
 			}
 		}
 		
-		if (numW != 0 && numB != 0) {
+		if (numW != 0 && numB != 0) {	// 다른 색이 하나라도 섞여있으면.
 			dividePaper(startRow, startCol, (startRow+endRow)/2, (startCol+endCol)/2);	// 좌측상단
-			dividePaper(startRow, (startCol+endCol)/2, (startRow+endRow)/2, endCol);		// 우측상단
-			dividePaper((startRow+endRow)/2, startCol, endRow, (startCol+endCol)/2);		// 좌측하단
+			dividePaper(startRow, (startCol+endCol)/2, (startRow+endRow)/2, endCol);	// 우측상단
+			dividePaper((startRow+endRow)/2, startCol, endRow, (startCol+endCol)/2);	// 좌측하단
 			dividePaper((startRow+endRow)/2, (startCol+endCol)/2, endRow, endCol);		// 우측하단
 		}
-		else {
+		else {	// 다른 색이 하나라도 섞여있지 않으면.
 			if (numW == 0)	// 흰색 종이가 하나도 없으면.
 				cntBlue++;
 			else			// 파란색 종이가 하나도 없으면.
