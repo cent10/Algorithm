@@ -47,7 +47,7 @@ public class Main_B_2630_색종이만들기_박진 {
 		// 색이 섞여있는지 확인
 	L:	for (int i = startRow; i < endRow; i++) {
 			for (int j = startCol; j < endCol; j++) {
-				if (numW > 0 && numB > 0) {
+				if (numW > 0 && numB > 0) {	// 색이 하나라도 섞여있으면 더이상 비교안하고 바로 빠져나감.
 					break L;
 				}
 				if (paper[i][j] == 0)
