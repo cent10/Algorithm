@@ -44,8 +44,6 @@ public class Main_B_1260_DFS와BFS_박진 {
 		
 		bfs(V);
 		System.out.println(sbForBFS);
-		
-		
 	}
 	
 	static private void dfs (int node, int cnt) {
