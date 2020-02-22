@@ -1,5 +1,6 @@
 (2020-02-22)
 - Main_B_14501_퇴사_박진 (Silver IV - 14501 : 퇴사)
+- Main_B_11559_PuyoPuyo_박진 (Gold V - 11559 : Puyo Puyo)
 
 (2020-02-21)
 - Main_B_17135_캐슬디펜스_박진_ING (Gold IV - 17135 : 캐슬 디펜스)
