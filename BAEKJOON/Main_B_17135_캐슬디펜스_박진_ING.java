@@ -1,5 +1,9 @@
 // Gold IV - 17135 : 캐슬 디펜스
 
+/*
+20%에서 '틀렸습니다.'
+*/
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
