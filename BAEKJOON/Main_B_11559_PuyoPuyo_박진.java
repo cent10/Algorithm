@@ -3,7 +3,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -19,15 +18,15 @@ class Point {
 public class Main_B_11559_PuyoPuyo_박진 {
 
 	static char[][] gameBoard = new char[12][6];
-	static boolean[][] isSelected;
 	
-	static Queue<Point> queue = new LinkedList<Point>();
+	static boolean[][] isSelected;				// BFS를 위한 flag
+	static Queue<Point> queue = new LinkedList<Point>();	// BFS를 위한 큐
 	
 	static int[] di = { -1, 1, 0, 0 };
 	static int[] dj = { 0, 0, -1, 1 };
 	
 	static boolean isPosible = false;	// 터뜨릴 뿌요가 있는지 확인하는 flag
-	static int result = 0;
+	static int result = 0;			// 결과값
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -35,23 +34,19 @@ public class Main_B_11559_PuyoPuyo_박진 {
 		// 입력
 		for (int i = 0; i < 12; i++) {
 			gameBoard[i] = br.readLine().toCharArray();
-//			System.out.println(Arrays.toString(gameBoard[i]));
 		}
 		
 		// 알고리즘
 		do {
-			isSelected = new boolean[12][6];	// isSelected 초기화
-			isPosible = false;					// isPosible 초기화
+			isSelected = new boolean[12][6];	// isSelected 초기화 (gameBoard가 1연쇄마다 갱신되기 때문에)
+			isPosible = false;			// isPosible 초기화 (gameBoard가 1연쇄마다 갱신되기 때문에)
 			removePuyo();	// 뿌요 제거
 			
 			if (isPosible == true) {
 				result++;	// 연쇄(결과값) 증가
-				movePuyo(); // 뿌요 이동
+				movePuyo(); 	// 뿌요 이동
 			}
 		} while(isPosible == true);
-//		for (int i = 0; i < 12; i++) {
-//			System.out.println(Arrays.toString(gameBoard[i]));
-//		}
 		
 		// 출력
 		System.out.println(result);
@@ -74,7 +69,7 @@ public class Main_B_11559_PuyoPuyo_박진 {
 		}
 	}
 	
-	// 4개 이상의 뿌요들을 모두 터뜨리는 메소드
+	// 4개 이상의 뿌요 그룹들을 모두 터뜨리는 메소드
 	static private void removePuyo() {
 		for (int i = 0; i < 12; i++) {
 			for (int j = 0; j < 6; j++) {
