@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main_B_17135_캐슬디펜스_박진 {
+public class Main_B_17135_캐슬디펜스_박진_ING {
 
 	static int N;	// 행의 수 N
 	static int M;	// 열의 수 M,
