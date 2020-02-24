@@ -1,5 +1,10 @@
 // Gold V - 17144 : 미세먼지 안녕!
 
+/*
+18,224kb
+256ms
+*/
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
