@@ -31,6 +31,7 @@
 - Main_J_1328_빌딩_박진 (Intermediate Coder - 1328 : 빌딩)
 - Main_J_1309_팩토리얼_박진 (Beginner Coder - 1309 : 팩토리얼)
 - Main_J_1901_소수구하기_박진 (Beginner Coder - 1901 : 소수 구하기)
+- Main_J_3334_회문_ING (Intermediate Coder - 3334 : 회문)
 
 (2020-01-26)
 - Main_J_3517_이진탐색_박진 (Intermediate Coder - 3517 : Tutorial : 이진탐색(Binary Search-이진검색))
