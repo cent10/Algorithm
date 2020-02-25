@@ -1,8 +1,33 @@
 // Intermediate Coder - 2752 : 개미
-  
+
+/*
+Time Limit Exceed(95)
+time_space_table:
+  d1.in : mem=7508k time=204ms
+  d2.in : mem=8872k time=205ms
+  d3.in : mem=10100k time=208ms
+  d4.in : mem=10100k time=195ms
+  d5.in : mem=10100k time=214ms
+  d6.in : mem=10100k time=237ms
+  d7.in : mem=10100k time=212ms
+  d8.in : mem=10100k time=201ms
+  d9.in : mem=10604k time=6401ms
+ d10.in : mem=10604k time=2083ms
+ d11.in : mem=10604k time=481ms
+ d12.in : mem=10604k time=439ms
+ d13.in : mem=10604k time=490ms
+ d14.in : mem=10604k time=441ms
+ d15.in : mem=10604k time=294ms
+ d16.in : mem=10636k time=296ms
+ d17.in : mem=10636k time=276ms
+ d18.in : mem=10636k time=291ms
+ d19.in : mem=10636k time=288ms
+ d20.in : mem=10636k time=283ms
+*/
+
 import java.util.Scanner;
   
-public class Main_J_2752_개미_박진_TLE_95 {
+public class Main_J_2752_개미_박진_TLE {
   
     static int w, h;
     static int p, q;
