@@ -3,7 +3,7 @@
 
 (2020-02-11)
 - Main_J_2752_개미_박진_TLE (Intermediate Coder - 2752 : 개미)
-  - 'Time Limit Exceed(90)'으로 실패.
+  - 'Time Limit Exceed(95)'으로 실패.
 
 (2020-02-10)
 - Main_J_1828_냉장고_박진 (Intermediate Coder - 1828 : 냉장고)
