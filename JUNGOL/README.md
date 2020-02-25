@@ -3,7 +3,7 @@
 
 (2020-02-11)
 - Main_J_2752_개미_박진_TLE (Intermediate Coder - 2752 : 개미)
-  - 시간초과(95점)으로 실패.
+  - 'Time Limit Exceed(90)'으로 실패.
 
 (2020-02-10)
 - Main_J_1828_냉장고_박진 (Intermediate Coder - 1828 : 냉장고)
@@ -32,6 +32,7 @@
 - Main_J_1309_팩토리얼_박진 (Beginner Coder - 1309 : 팩토리얼)
 - Main_J_1901_소수구하기_박진 (Beginner Coder - 1901 : 소수 구하기)
 - Main_J_3334_회문_박진_ING (Intermediate Coder - 3334 : 회문)
+  - 'Accepted(87)'로 실패.
 
 (2020-01-26)
 - Main_J_3517_이진탐색_박진 (Intermediate Coder - 3517 : Tutorial : 이진탐색(Binary Search-이진검색))
