@@ -2,7 +2,7 @@
 - Main_J_1863_종교_박진 (Advanced Corder - 1863 : 종교)
 
 (2020-02-11)
-- Main_J_2752_개미_박진 (Intermediate Coder - 2752 : 개미)
+- Main_J_2752_개미_박진_ (Intermediate Coder - 2752 : 개미)
   - 시간초과(95점)으로 실패.
 
 (2020-02-10)
