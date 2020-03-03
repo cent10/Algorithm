@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Solution_D4_7699_수지의수지맞는여행_해답 {
+public class Solution_D4_7699_수지의수지맞는여행_해답1 {
 
 	static int result;
 	static int R, C;
