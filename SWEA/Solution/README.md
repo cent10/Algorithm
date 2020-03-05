@@ -1,5 +1,6 @@
 (2020-03-04) (A+ Level)
-- Solution_D4_5684_운동_해답 (D4 - 5684 : [Professional] 운동)
+- Solution_D4_5684_운동_해답1_인접행렬 (D4 - 5684 : [Professional] 운동)
+- Solution_D4_5684_운동_해답2_인접리스트 (D4 - 5684 : [Professional] 운동)
 - Solution_2382_미생물격리_해답 (2382 : [모의 SW 역량테스트] 미생물 격리)
 
 (2020-03-04) (A Level)
