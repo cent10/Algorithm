@@ -1,3 +1,5 @@
+# BAEKJOON ONLINE JUDGE
+
 (2020-03-19)
 - Main_B_1976_여행가자_박진 (Gold IV : 1976 - 여행 가자)
   - DFS로 풀었음. (BFS 또는 Disjoint Set으로도 가능한 듯)
