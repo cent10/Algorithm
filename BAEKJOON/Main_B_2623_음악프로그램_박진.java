@@ -45,14 +45,7 @@ public class Main_B_2623_음악프로그램_박진 {
 				numOfEdge[tempArr[j]]++;
 			}
 		}
-//		for (int i = 1; i <= N; i++) {
-//			for (int j = 0; j < arrList[i].size(); j++) {
-//				System.out.print(arrList[i].get(j) + " ");
-//			}
-//			System.out.println();
-//		}
-		
-//		System.out.println(Arrays.toString(numOfEdge));
+
 		int temp = -1;
 		for (int i = 1; i <= N; i++) {
 			if (numOfEdge[i] == 0) {
