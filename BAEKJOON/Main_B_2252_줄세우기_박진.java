@@ -1,5 +1,10 @@
 // Gold II - 2252 : 줄 세우기
 
+/*
+ * 163,600 kb
+ * 1,008 ms
+ */
+
 import java.util.*;
 import java.io.*;
 
