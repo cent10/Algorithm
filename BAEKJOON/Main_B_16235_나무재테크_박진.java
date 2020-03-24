@@ -15,10 +15,10 @@ import java.io.*;
 public class Main_B_16235_나무재테크_박진 {
 
 	static int N, M, K;	// N: 땅의 크기, M: 심은 나무의 수, K: K년 후
-	static int[][] A;	// 해당 칸에 추가될 양분의 양
-	static int[][] map;	// 해당 칸의 양분 정보
-	static PriorityQueue<Integer>[][] pq;	// 해당 칸에 있는 나무들의 나이
-	static Queue<Integer>[][] deadTree;	// 해당 칸에서 죽은 나무들의 나이
+	static int[][] A;	// 해당 칸에 추가될 양분의 양 저장
+	static int[][] map;	// 해당 칸의 양분의 양 저장
+	static PriorityQueue<Integer>[][] pq;	// 해당 칸에 있는 나무들의 나이 저장
+	static Queue<Integer>[][] deadTree;	// 해당 칸에서 죽은 나무들의 나이 저장
 	static int[][] plusTree;	// 해당 칸에서 나이가 5의 배수인 나무들의 수 저장
 	
 	static int[] di = {-1, 1, 0, 0, -1, -1, 1, 1};
