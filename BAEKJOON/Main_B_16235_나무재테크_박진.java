@@ -4,6 +4,11 @@
  * 삼성 채용 기출문제
  */
 
+/*
+ * 281,568 kb
+ * 1,108 ms
+ */
+
 import java.util.*;
 import java.io.*;
 
