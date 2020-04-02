@@ -2,6 +2,9 @@
 
 (2020-04-02)
 - Solution_D4_6719_성수의프로그래밍강좌시청_박진 (D4 - 6719 : 성수의 프로그래밍 강좌 시청)
+- Solution_D4_9760_PokerGame_박진 (D4 - 9760 : Poker Game)
+  - (User Problem)
+- Solution_D3_5607_조합_박진 (D3 - 5607 : [Professional] 조합)
 ---
 (2020-03-16)
 - Solution_D5_1812_수정이의타일자르기_박진_ING (D5 - 1812 : 수정이의 타일 자르기)
