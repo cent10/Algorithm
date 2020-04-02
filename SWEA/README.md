@@ -8,6 +8,9 @@
   - 페르마의 소정리 (Fermat’s little theorem) --> 인터넷에서 찾아보면서 풀었음.
     - SWEA D3] 5607. [Professional] 조합 - 페르마의 소정리 (https://1ilsang.blog.me/221461026692)
     - [Problem] 어떤 수의 n제곱 구하기(백준 1629번) (https://onsil-thegreenhouse.github.io/programming/problem/2018/03/29/problem_math_power/)
+  - Math.BigInteger를 이용해서도 풀 수 있는듯. 이 함수만 기억하고 있다면 더 쉬웠을 듯.
+    - [JAVA] 무한대 정수 BigInteger 사용하기 (https://elena90.tistory.com/entry/JAVA-%EB%AC%B4%ED%95%9C%EB%8C%80-%EC%A0%95%EC%88%98-BigInteger-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+    - SWEA 5607 (Professional) 조합 (https://zetawiki.com/wiki/SWEA_5607_(Professional)_%EC%A1%B0%ED%95%A9)
 ---
 (2020-03-16)
 - Solution_D5_1812_수정이의타일자르기_박진_ING (D5 - 1812 : 수정이의 타일 자르기)
