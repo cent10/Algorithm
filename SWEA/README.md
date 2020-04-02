@@ -6,6 +6,8 @@
   - (User Problem)
 - Solution_D3_5607_조합_박진 (D3 - 5607 : [Professional] 조합)
   - 페르마의 소정리 (Fermat’s little theorem) --> 인터넷에서 찾아보면서 풀었음.
+    - SWEA D3] 5607. [Professional] 조합 - 페르마의 소정리 (https://1ilsang.blog.me/221461026692)
+    - [Problem] 어떤 수의 n제곱 구하기(백준 1629번) (https://onsil-thegreenhouse.github.io/programming/problem/2018/03/29/problem_math_power/)
 ---
 (2020-03-16)
 - Solution_D5_1812_수정이의타일자르기_박진_ING (D5 - 1812 : 수정이의 타일 자르기)
