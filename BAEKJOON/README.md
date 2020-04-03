@@ -1,4 +1,11 @@
 # BAEKJOON ONLINE JUDGE
+
+(2020-04-03)
+- Main_B_1699_제곱수의합_박진 (Silver III - 1699 : 제곱수의 합)
+  - 처음에는 '틀렸습니다'로 못풀었음. --> 이후에 인터넷 참고하여 풀었음.
+  - (Dynamic Programming (DP))
+  - (참고: http://occidere.blog.me/220792326120)
+---
 (2020-03-26)
 - Main_B_17825_주사위윷놀이_박진_ING (Gold II - 17825 : 주사위 윷놀이)
   - 접근법이 떠오르지않아서 못풀었음.
