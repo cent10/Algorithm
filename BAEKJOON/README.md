@@ -5,6 +5,8 @@
   - MST : Kruskal 알고리즘 (48,828 kb, 452 ms)
 - Main_B_17070_파이프옮기기1_박진 (Gold V - 17070 : 파이프 옮기기 1)
   - DFS (169,652 kb, 392 ms)
+- Main_B_1062_가르침_박진 (Gold IV - 1062 : 가르침)
+  - Combination(조합)과 HashSet 사용 (84,140 kb, 544 ms)
 ---
 (2020-04-16)
 - Main_B_11727_2xn타일링2_박진 (Silver III - 11727 : 2×n 타일링 2)
