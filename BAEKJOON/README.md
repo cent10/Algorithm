@@ -1,5 +1,8 @@
 # BAEKJOON ONLINE JUDGE
 
+(2020-04-19)
+
+---
 (2020-04-18)
 - Main_B_1922_네트워크연결_박진 (Gold IV - 1922 : 네트워크 연결)
   - MST : Kruskal 알고리즘 (48,828 kb, 452 ms)
