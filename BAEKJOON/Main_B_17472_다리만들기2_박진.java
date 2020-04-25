@@ -1,7 +1,7 @@
 // Gold III - 17472 : 다리 만들기 2
 
 /*
- * BFS & Kruskal (Union-Find)
+ * BFS & MST : Kruskal (Union-Find)
  * 13,148 kb, 76 ms
  */
 
@@ -43,7 +43,7 @@ public class Main_B_17472_다리만들기2_박진 {
 	
 	static int islandNum = 1;	// 섬 번호
 	static Queue<Point> queue = new LinkedList<Point>();	// BFS를 위한 큐
-	static PriorityQueue<Edge> pq = new PriorityQueue<Edge>();
+	static PriorityQueue<Edge> pq = new PriorityQueue<Edge>();	// Kruskal을 위한 우선순위 큐
 	static boolean[][] visit;
 	
 	static int[] parent = new int[7];	// union-find
@@ -140,6 +140,7 @@ public class Main_B_17472_다리만들기2_박진 {
 //			System.out.println(pq.poll());
 //		}
 		
+		// MST : Kruskal
 		makeSet();
 		while(!pq.isEmpty()) {
 			Edge edge = pq.poll();
