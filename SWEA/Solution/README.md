@@ -1,7 +1,7 @@
 (2020-04-29)
-- Solution_5653_줄기세포배양_해답 (5653. [모의 SW 역량테스트] 줄기세포배양)
+- Solution_5653_줄기세포배양_해답 (5653 : [모의 SW 역량테스트] 줄기세포배양)
   - (BFS & 시뮬레이션)
-- Solution_5658_보물상자비밀번호_해답 (5658. [모의 SW 역량테스트] 보물상자 비밀번호)
+- Solution_5658_보물상자비밀번호_해답 (5658 : [모의 SW 역량테스트] 보물상자 비밀번호)
   - (API 메소드 활용)
       - radix진수(s)를 10진수로 변환: Integer.parseInt(String s, int radix);
         - cf. 10진수(n)를 16진수로 변환: Integer.toHexString(int n);
