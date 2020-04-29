@@ -5,7 +5,8 @@
   - (API 메소드 활용)
       - radix진수(s)를 10진수로 변환: Integer.parseInt(String s, int radix);
         - cf. 10진수(n)를 16진수로 변환: Integer.toHexString(int n);
-          - 2진수(toBinaryString), 8진수(toOctalString)
+        - cf. 10진수(n)를 8진수로 변환: Integer.toOctalString(int n);
+        - cf. 10진수(n)를 2진수로 변환: Integer.toBinaryString(int n);
       - 내림차순 정렬: Arrays.sort(a, Collections.reverseOrder());
 ---
 (2020-04-09)
