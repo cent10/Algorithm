@@ -1,5 +1,12 @@
-(2020-04-23)
-
+(2020-04-29)
+- Solution_5653_줄기세포배양_해답 (5653. [모의 SW 역량테스트] 줄기세포배양)
+  - (BFS & 시뮬레이션)
+- Solution_5658_보물상자비밀번호_해답 (5658. [모의 SW 역량테스트] 보물상자 비밀번호)
+  - (API 메소드 활용)
+      - radix진수(s)를 10진수로 변환: Integer.parseInt(String s, int radix);
+        - cf. 10진수(n)를 16진수로 변환: Integer.toHexString(int n);
+          - 2진수(toBinaryString), 8진수(toOctalString)
+      - 내림차순 정렬: Arrays.sort(a, Collections.reverseOrder());
 ---
 (2020-04-09)
 - Solution_D4_1251_하나로_해답_Kruskal (D4 - 1251 : [S/W 문제해결 응용] 4일차 - 하나로)
