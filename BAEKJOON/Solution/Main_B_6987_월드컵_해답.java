@@ -8,22 +8,22 @@ import java.util.StringTokenizer;
 
 public class Main_B_6987_월드컵_해답 {
     static StringBuilder sb = new StringBuilder();
-    static int[][] score = null;
+    static int[][] gameResult = null;
 
-    static int A;
+    static int valid;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        score = new int[4][18];
+        gameResult = new int[4][18];
         StringTokenizer tokens;
         for (int r = 0; r < 4; r++) {
             tokens = new StringTokenizer(br.readLine());
             for (int c = 0; c < 18; c++) {
-                score[r][c] = Integer.parseInt(tokens.nextToken());
+                gameResult[r][c] = Integer.parseInt(tokens.nextToken());
             }
-            A = 0;
-            dfs(0, 1, score[r]);
-            sb.append(A).append(" ");
+            valid = 0;
+            dfs(0, 1, gameResult[r]);
+            sb.append(valid).append(" ");
         }
 
         System.out.println(sb);
@@ -41,11 +41,11 @@ public class Main_B_6987_월드컵_해답 {
             // 솔루션 실행 - 하나라도 0이 아닌게 있으면 0 아니면 1
             for (int c = 0; c < score.length; c++) {
                 if (score[c] > 0) {
-                    A = 0;
+                    valid = 0;
                     return;
                 }
             }
-            A = 1;
+            valid = 1;
             return;
         }
 
