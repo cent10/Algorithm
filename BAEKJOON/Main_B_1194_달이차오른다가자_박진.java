@@ -1,5 +1,10 @@
 // Gold I - 1194 : 달이 차오른다, 가자.
 
+/*
+ * BFS (3차원 visit 사용) & 비트마스킹
+ * 15764 kb, 108 ms
+ */
+
 import java.util.*;
 import java.io.*;
 
